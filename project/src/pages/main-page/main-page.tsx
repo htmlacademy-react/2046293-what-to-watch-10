@@ -8,7 +8,6 @@ import Footer from '../../components/main-page/footer';
 import Button from '../../components/main-page/button';
 import { Props } from '../../components/app/app';
 
-
 function MainPage( {img, alt, title, genre, year, cards}: Props): JSX.Element {
   return (
     <React.Fragment>
@@ -18,7 +17,6 @@ function MainPage( {img, alt, title, genre, year, cards}: Props): JSX.Element {
         title={title}
         genre={genre}
         year={year}
-        cards={cards}
       />
       <div className="page-content">
         <section className="catalog">

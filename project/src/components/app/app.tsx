@@ -11,15 +11,15 @@ export type Props = {
   cards: CardFilms;
 };
 
-function App({cards, year, genre, title, alt, img}: Props): JSX.Element {
+function App({img, alt, title, genre, year, cards}: Props): JSX.Element {
   return (
     <MainPage
-      cards={cards}
-      year={year}
-      genre={genre}
-      title={title}
-      alt={alt}
       img={img}
+      alt={alt}
+      title={title}
+      genre={genre}
+      year={year}
+      cards={cards}
     />
   );
 }

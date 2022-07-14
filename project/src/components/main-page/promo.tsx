@@ -1,5 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Props } from '../../components/app/app';
+type Props = {
+  img: string;
+  alt: string;
+  title: string;
+  genre: string;
+  year: number;
+};
 
 function Promo ({img, alt, title, genre, year}: Props): JSX.Element {
   return (
