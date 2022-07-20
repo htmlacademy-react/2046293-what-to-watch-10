@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 import {AppRoute} from '../../components/app/const';
 
-function ErrorPage(): JSX.Element {
+export default function ErrorPage(): JSX.Element {
   return (
     <section className="film-card film-card--full">
       <div className="film-card__header">
@@ -23,6 +23,3 @@ function ErrorPage(): JSX.Element {
     </section>
   );
 }
-
-export default ErrorPage;
-
