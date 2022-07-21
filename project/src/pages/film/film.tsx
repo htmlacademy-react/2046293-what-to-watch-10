@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-function Film (): JSX.Element {
+export default function Film (): JSX.Element {
   return (
     <>
       <section className="film-card film-card--full">
@@ -163,4 +163,4 @@ function Film (): JSX.Element {
   );
 }
 
-export default Film;
+
